@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConflictsList>
+	<Conflict>
+		<Title>screensaver</Title>
+		<Type>individual</Type>
+	</Conflict>
+	<Conflict>
+		<Title>internet</Title>
+		<Type>individual</Type>
+	</Conflict>
+	<Conflict>
+		<Title>arguingwindow</Title>
+		<Type>individual</Type>
+	</Conflict>
+	<Conflict>
+		<Title>gaming</Title>
+		<Type>dual</Type>
+	</Conflict>
+	<Conflict>
+		<Title>shocking</Title>
+		<Type>dual</Type>
+	</Conflict>
+	<Conflict>
+		<Title>mailing</Title>
+		<Type>dual</Type>
+	</Conflict>
+	<Conflict>
+		<Title>dancing</Title>
+		<Type>massive</Type>
+	</Conflict>
+	<Conflict>
+		<Title>annoyingNoises</Title>
+		<Type>massive</Type>
+	</Conflict>	
+	<Conflict>
+		<Title>joking</Title>
+		<Type>dual</Type>
+	</Conflict>
+</ConflictsList>

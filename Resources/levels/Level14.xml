@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Level>
+  <General>
+    <Tower>1</Tower>
+    <LevelNumber>14</LevelNumber>
+    <Students>
+      <rows>3</rows>
+      <columns>3</columns>
+    </Students>
+    <Duration>1:55</Duration>
+    <Music>i_professor</Music>
+  </General>
+  <Settings>
+    <Recommended>
+      <Skill>
+        <Name>shutdown</Name>
+        <Stress>1</Stress>
+      </Skill>
+      <Skill>
+        <Name>chalk</Name>
+        <Stress>2</Stress>
+      </Skill>
+      <Skill>
+        <Name>1010</Name>
+        <Stress>2</Stress>
+      </Skill>
+      <Skill>
+        <Name>reset</Name>
+        <Stress>4</Stress>
+      </Skill>
+      <Skill>
+        <Name>emp</Name>
+        <Stress>4</Stress>
+      </Skill>
+    </Recommended>
+  </Settings>
+  <Skills>
+    <Skill>
+      <Name>shortcircuit</Name>
+      <Stress>1</Stress>
+    </Skill>
+    <Skill>
+      <Name>shutdown</Name>
+      <Stress>1</Stress>
+    </Skill>
+    <Skill>
+      <Name>1010</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>reset</Name>
+      <Stress>4</Stress>
+    </Skill>
+    <Skill>
+      <Name>emp</Name>
+      <Stress>4</Stress>
+    </Skill>
+  </Skills>
+  <Skills />
+  <Tasks>
+    <Task id="1">
+      <Type>Talk</Type>
+      <Title>"How to make a game about robots."</Title>
+      <Duration>10</Duration>
+    </Task>
+    <Task id="2">
+      <Type>Work</Type>
+      <Title>"Making my own game about robots."</Title>
+      <Duration>5</Duration>
+    </Task>
+    <Task id="3">
+      <Type>Blackboard</Type>
+      <Title>"Basic game design."</Title>
+      <Duration>7</Duration>
+    </Task>
+    <Task id="4">
+      <Type>Talk</Type>
+      <Title>"How to manage a game manager."</Title>
+      <Duration>10</Duration>
+    </Task>
+    <Task id="5">
+      <Type>Work</Type>
+      <Title>"Compiling the first level."</Title>
+      <Duration>5</Duration>
+    </Task>
+    <Task id="6">
+      <Type>Blackboard</Type>
+      <Title>"Advanced game design."</Title>
+      <Duration>15</Duration>
+    </Task>
+    <Task id="7">
+      <Type>Work</Type>
+      <Title>"Building an exe file."</Title>
+      <Duration>5</Duration>
+    </Task>
+  </Tasks>
+  <Walkthrough>
+    <Event>
+      <Time>0:03</Time>
+      <Type>dancing</Type>
+    </Event>
+    <Event>
+      <Time>0:10</Time>
+      <Type>annoyingNoises</Type>
+    </Event>
+    <Event>
+      <Time>0:15</Time>
+      <Type>internet</Type>
+    </Event>
+    <Event>
+      <Time>0:18</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>0:21</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>0:25</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>0:28</Time>
+      <Type>gaming</Type>
+    </Event>
+    <Event>
+      <Time>0:36</Time>
+      <Type>mailing</Type>
+    </Event>
+    <Event>
+      <Time>0:40</Time>
+      <Type>mailing</Type>
+    </Event>
+    <Event>
+      <Time>0:43</Time>
+      <Type>annoyingNoises</Type>
+    </Event>
+    <Event>
+      <Time>0:46</Time>
+      <Type>internet</Type>
+    </Event>
+    <Event>
+      <Time>0:49</Time>
+      <Type>internet</Type>
+    </Event>
+    <Event>
+      <Time>0:53</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>0:55</Time>
+      <Type>shocking</Type>
+    </Event>
+    <Event>
+      <Time>1:00</Time>
+      <Type>dancing</Type>
+    </Event>
+    <Event>
+      <Time>1:05</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>1:09</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>1:12</Time>
+      <Type>internet</Type>
+    </Event>
+    <Event>
+      <Time>1:15</Time>
+      <Type>gaming</Type>
+    </Event>
+    <Event>
+      <Time>1:25</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>1:26</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>1:27</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>1:35</Time>
+      <Type>gaming</Type>
+    </Event>
+    <Event>
+      <Time>1:40</Time>
+      <Type>dancing</Type>
+    </Event>
+  </Walkthrough>
+</Level>

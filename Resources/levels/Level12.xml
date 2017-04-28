@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Level>
+  <General>
+    <LevelNumber>2</LevelNumber>
+	<Tower>1</Tower>
+    <Students>
+      <rows>4</rows>
+      <columns>3</columns>
+    </Students>
+    <Duration>2:00</Duration>
+	<Music>ablid</Music>
+  </General>
+  <Settings>
+    <Recommended>
+      <Skill>
+        <Name>laser</Name>
+        <Stress>3</Stress>
+      </Skill>
+      <Skill>
+        <Name>1010</Name>
+        <Stress>2</Stress>
+      </Skill>
+      <Skill>
+        <Name>chalk</Name>
+        <Stress>2</Stress>
+      </Skill>
+      <Skill>
+        <Name>shutdown</Name>
+        <Stress>2 </Stress>
+      </Skill>
+      <Skill>
+        <Name>emp</Name>
+        <Stress>4</Stress>
+      </Skill>
+    </Recommended>
+  </Settings>
+  <Skills>
+    <Skill>
+      <Name>shortcircuit</Name>
+      <Stress>1</Stress>
+    </Skill>
+    <Skill>
+      <Name>shutdown</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>1010</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>chalk</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>emp</Name>
+      <Stress>4</Stress>
+    </Skill>
+  </Skills>
+  <Tasks>
+    <Task id="1">
+      <Type>Talk</Type>
+      <Title>"How to print without spending too much color cartridge"</Title>
+      <Duration>15</Duration>
+    </Task>
+    <Task id="2">
+      <Type>Talk</Type>
+      <Title>"Telling jokes like a human"</Title>
+      <Duration>15</Duration>
+    </Task>
+    <Task id="3">
+      <Type>Talk</Type>
+      <Title>"Asimov, who he was and how wrong he was about robots"</Title>
+      <Duration>15</Duration>
+    </Task>
+    <Task id="4">
+      <Type>Work</Type>
+      <Title>"Advanced power management, how to improve the performance of your battery"</Title>
+      <Duration>15</Duration>
+    </Task>
+    <Task id="5">
+      <Type>Blackboard</Type>
+      <Title>"Blue screen, what is and how to deal with it"</Title>
+      <Duration>15</Duration>
+    </Task>
+  </Tasks>
+  <Walkthrough>
+    <Event>
+      <Time>0:03</Time>
+      <Type>mailing</Type>
+    </Event>
+    <Event>
+      <Time>0:10</Time>
+      <Type>gaming</Type>
+    </Event>
+    <Event>
+      <Time>0:20</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>0:25</Time>
+      <Type>dancing</Type>
+    </Event>
+    <Event>
+      <Time>0:35</Time>
+      <Type>gaming</Type>
+    </Event>
+    <Event>
+      <Time>0:45</Time>
+      <Type>internet</Type>
+    </Event>
+    <Event>
+      <Time>0:50</Time>
+      <Type>mailing</Type>
+    </Event>
+    <Event>
+      <Time>1:00</Time>
+      <Type>internet</Type>
+    </Event>
+    <Event>
+      <Time>1:10</Time>
+      <Type>annoyingNoises</Type>
+    </Event>
+    <Event>
+      <Time>1:20</Time>
+      <Type>mailing</Type>
+    </Event>
+    <Event>
+      <Time>1:25</Time>
+      <Type>arguingWindow</Type>
+    </Event>
+  </Walkthrough>
+</Level>

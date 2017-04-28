@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Level>
+  <General>
+    <LevelNumber>2</LevelNumber>
+    <Tower>0</Tower>
+    <Students>
+      <rows>1</rows>
+      <columns>2</columns>
+    </Students>
+    <Duration>0:30</Duration>
+    <Music>dont_stop_the_class</Music>
+  </General>
+  <Settings>
+    <Recommended>
+      <Skill>
+        <Name>shutdown</Name>
+        <Stress>1</Stress>
+      </Skill>
+      <Skill>
+        <Name>1010</Name>
+        <Stress>2</Stress>
+      </Skill>
+      <Skill>
+        <Name>none</Name>
+        <Stress>0</Stress>
+      </Skill>
+      <Skill>
+        <Name>none</Name>
+        <Stress>0</Stress>
+      </Skill>
+      <Skill>
+        <Name>none</Name>
+        <Stress>0</Stress>
+      </Skill>
+    </Recommended>
+  </Settings>
+  <Skills>
+    <Skill>
+      <Name>shutdown</Name>
+      <Stress>1</Stress>
+    </Skill>
+    <Skill>
+      <Name>1010</Name>
+      <Stress>2</Stress>
+    </Skill>
+  </Skills>
+  <Tasks>
+    <Task id="1">
+      <Type>Talk</Type>
+      <Title>""Rooting your router roots""</Title>
+      <Duration>15</Duration>
+    </Task>
+  </Tasks>
+  <Walkthrough>
+    <Event>
+      <Time>0:05</Time>
+      <Type>gaming</Type>
+    </Event>
+  </Walkthrough>
+</Level>

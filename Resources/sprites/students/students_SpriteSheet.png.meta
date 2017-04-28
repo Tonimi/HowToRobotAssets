@@ -1,0 +1,1588 @@
+fileFormatVersion: 2
+guid: a65743cd11425d14e9d93520ddc97b41
+timeCreated: 1487688308
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: students_SpriteSheet_0
+    21300002: students_SpriteSheet_1
+    21300004: students_SpriteSheet_2
+    21300006: students_SpriteSheet_3
+    21300008: students_SpriteSheet_4
+    21300010: students_SpriteSheet_5
+    21300012: students_SpriteSheet_6
+    21300014: students_SpriteSheet_7
+    21300016: students_SpriteSheet_8
+    21300018: students_SpriteSheet_9
+    21300020: students_SpriteSheet_10
+    21300022: students_SpriteSheet_11
+    21300024: students_SpriteSheet_12
+    21300026: students_SpriteSheet_13
+    21300028: students_SpriteSheet_14
+    21300030: students_SpriteSheet_15
+    21300032: students_SpriteSheet_16
+    21300034: students_SpriteSheet_17
+    21300036: students_SpriteSheet_18
+    21300038: students_SpriteSheet_19
+    21300040: students_SpriteSheet_20
+    21300042: students_SpriteSheet_21
+    21300044: students_SpriteSheet_22
+    21300046: students_SpriteSheet_23
+    21300048: students_SpriteSheet_24
+    21300050: students_SpriteSheet_25
+    21300052: students_SpriteSheet_26
+    21300054: students_SpriteSheet_27
+    21300056: students_SpriteSheet_28
+    21300058: students_SpriteSheet_29
+    21300060: students_SpriteSheet_30
+    21300062: students_SpriteSheet_31
+    21300064: students_SpriteSheet_32
+    21300066: students_SpriteSheet_33
+    21300068: students_SpriteSheet_34
+    21300070: students_SpriteSheet_35
+    21300072: students_SpriteSheet_36
+    21300074: students_SpriteSheet_37
+    21300076: students_SpriteSheet_38
+    21300078: students_SpriteSheet_39
+    21300080: students_SpriteSheet_40
+    21300082: students_SpriteSheet_41
+    21300084: students_SpriteSheet_42
+    21300086: students_SpriteSheet_43
+    21300088: students_SpriteSheet_44
+    21300090: students_SpriteSheet_45
+    21300092: students_SpriteSheet_46
+    21300094: students_SpriteSheet_47
+    21300096: students_SpriteSheet_48
+    21300098: students_SpriteSheet_49
+    21300100: students_SpriteSheet_50
+    21300102: students_SpriteSheet_51
+    21300104: students_SpriteSheet_52
+    21300106: students_SpriteSheet_53
+    21300108: students_SpriteSheet_54
+    21300110: students_SpriteSheet_55
+    21300112: students_SpriteSheet_56
+    21300114: students_SpriteSheet_57
+    21300116: students_SpriteSheet_58
+    21300118: students_SpriteSheet_59
+    21300120: students_SpriteSheet_60
+    21300122: students_SpriteSheet_61
+    21300124: students_SpriteSheet_62
+    21300126: students_SpriteSheet_63
+    21300128: students_SpriteSheet_64
+    21300130: students_SpriteSheet_65
+    21300132: students_SpriteSheet_66
+    21300134: students_SpriteSheet_67
+    21300136: students_SpriteSheet_68
+    21300138: students_SpriteSheet_69
+    21300140: students_SpriteSheet_70
+    21300142: students_SpriteSheet_71
+    21300144: students_SpriteSheet_72
+    21300146: students_SpriteSheet_73
+    21300148: students_SpriteSheet_74
+    21300150: students_SpriteSheet_75
+    21300152: students_SpriteSheet_76
+    21300154: students_SpriteSheet_77
+    21300156: students_SpriteSheet_78
+    21300158: students_SpriteSheet_79
+    21300160: students_SpriteSheet_80
+    21300162: students_SpriteSheet_81
+    21300164: students_SpriteSheet_82
+    21300166: students_SpriteSheet_83
+    21300168: students_SpriteSheet_84
+    21300170: students_SpriteSheet_85
+    21300172: students_SpriteSheet_86
+    21300174: students_SpriteSheet_87
+    21300176: students_SpriteSheet_88
+    21300178: students_SpriteSheet_89
+    21300180: students_SpriteSheet_90
+    21300182: students_SpriteSheet_91
+    21300184: students_SpriteSheet_92
+    21300186: students_SpriteSheet_93
+    21300188: students_SpriteSheet_94
+    21300190: students_SpriteSheet_95
+    21300192: students_SpriteSheet_96
+    21300194: students_SpriteSheet_97
+    21300196: students_SpriteSheet_98
+    21300198: students_SpriteSheet_99
+    21300200: students_SpriteSheet_100
+    21300202: students_SpriteSheet_101
+    21300204: students_SpriteSheet_102
+    21300206: students_SpriteSheet_103
+    21300208: students_SpriteSheet_104
+    21300210: students_SpriteSheet_105
+    21300212: students_SpriteSheet_106
+    21300214: students_SpriteSheet_107
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 256
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: students_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2894
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2894
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2894
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2894
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2894
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2894
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2894
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2894
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2894
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2638
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2638
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2638
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2638
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2638
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2638
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2638
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2638
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2638
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2382
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2382
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2382
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2382
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2382
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2382
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2382
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2382
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2382
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2126
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2126
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2126
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2126
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2126
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2126
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2126
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2126
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2126
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1870
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1870
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1870
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1870
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1870
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1870
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1870
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1870
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1870
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1614
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1614
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1614
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1614
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1614
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1614
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1614
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1614
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1614
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1358
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1358
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1358
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1358
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1358
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1358
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1358
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1358
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1358
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1102
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1102
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1102
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1102
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1102
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1102
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1102
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1102
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1102
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 846
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 846
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 846
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 846
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 846
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 846
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 846
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 846
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 590
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 590
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 590
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 590
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 590
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 590
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 590
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 590
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 590
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 334
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 334
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 334
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 334
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 334
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 334
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 334
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 334
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 78
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 78
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 78
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 78
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 78
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 78
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 78
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: students_SpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 78
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

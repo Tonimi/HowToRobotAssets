@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Level><General><Tower>2</Tower>
+    <LevelNumber>18</LevelNumber><Students><rows>3</rows><columns>4</columns></Students><Duration>1:30</Duration><Music>ablid</Music></General><Settings><Recommended><Skill><Name>shutdown</Name><Stress>1</Stress></Skill><Skill><Name>shortcircuit</Name><Stress>2</Stress></Skill><Skill><Name>1010</Name><Stress>2</Stress></Skill><Skill><Name>reset</Name><Stress>4</Stress></Skill><Skill><Name>emp</Name><Stress>4</Stress></Skill></Recommended></Settings>
+
+
+
+
+<Skills>
+    <Skill>
+      <Name>shutdown</Name>
+      <Stress>1</Stress>
+    </Skill>
+    <Skill>
+      <Name>shortcircuit</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>1010</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>reset</Name>
+      <Stress>4</Stress>
+    </Skill>
+    <Skill>
+      <Name>emp</Name>
+      <Stress>4</Stress>
+    </Skill>
+  </Skills>
+
+
+
+
+<Skills/>
+
+<Tasks><Task id="1"><Type>Talk</Type><Title>"Old video cards history."</Title><Duration>5</Duration></Task><Task id="2"><Type>Blackboard</Type><Title>"CGA graphics."</Title><Duration>5</Duration></Task><Task id="3"><Type>Work</Type><Title>"Design a level using CGA graphics."</Title><Duration>4</Duration></Task><Task id="4"><Type>Blackboard</Type><Title>"EGA graphics."</Title><Duration>6</Duration></Task><Task id="5"><Type>Work</Type><Title>"Design a level using EGA graphics."</Title><Duration>4</Duration></Task><Task id="6"><Type>Blackboard</Type><Title>"VGA graphics."</Title><Duration>7</Duration></Task><Task id="7"><Type>Work</Type><Title>"Design a level using VGA graphics."</Title><Duration>4</Duration></Task><Task id="8"><Type>Talk</Type><Title>"The SVGA and new 3D cards."</Title><Duration>8</Duration></Task></Tasks>
+
+
+
+
+
+<Walkthrough><Event><Time>0:03</Time><Type>screensaver</Type></Event><Event><Time>0:06</Time><Type>screensaver</Type></Event><Event><Time>0:12</Time><Type>dancing</Type></Event><Event><Time>0:15</Time><Type>internet</Type></Event><Event><Time>0:18</Time><Type>gaming</Type></Event><Event><Time>0:19</Time><Type>screensaver</Type></Event><Event><Time>0:22</Time><Type>screensaver</Type></Event><Event><Time>0:23</Time><Type>internet</Type></Event><Event><Time>0:27</Time><Type>mailing</Type></Event><Event><Time>0:28</Time><Type>screensaver</Type></Event><Event><Time>0:32</Time><Type>mailing</Type></Event><Event><Time>0:36</Time><Type>internet</Type></Event><Event><Time>0:37</Time><Type>gaming</Type></Event><Event><Time>0:40</Time><Type>screensaver</Type></Event><Event><Time>0:42</Time><Type>screensaver</Type></Event><Event><Time>0:45</Time><Type>internet</Type></Event><Event><Time>0:47</Time><Type>internet</Type></Event><Event><Time>0:55</Time><Type>mailing</Type></Event><Event><Time>1:00</Time><Type>gaming</Type></Event><Event><Time>1:05</Time><Type>shocking</Type></Event><Event><Time>1:07</Time><Type>internet</Type></Event><Event><Time>1:12</Time><Type>screensaver</Type></Event><Event><Time>1:15</Time><Type>mailing</Type></Event><Event><Time>1:19</Time><Type>dancing</Type></Event><Event><Time>1:25</Time><Type>internet</Type></Event></Walkthrough></Level>

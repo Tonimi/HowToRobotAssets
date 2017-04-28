@@ -1,0 +1,8 @@
+screensaver-individual
+internet-individual
+arguingWindow-individual
+gaming-dual
+shocking-dual
+mailing-dual
+paperBulletFight-massive
+annoyingNoises-massive

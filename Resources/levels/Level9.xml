@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Level>
+  <General>
+    <LevelNumber>9</LevelNumber>
+	<Tower>0</Tower>
+    <Students>
+      <rows>3</rows>
+      <columns>3</columns>
+    </Students>
+    <Duration>1:00</Duration>
+	<Music>ablid</Music>
+  </General>
+  <Settings>
+    <Recommended>
+      <Skill>
+        <Name>laser</Name>
+        <Stress>3</Stress>
+      </Skill>
+      <Skill>
+        <Name>1010</Name>
+        <Stress>2</Stress>
+      </Skill>
+      <Skill>
+        <Name>chalk</Name>
+        <Stress>2</Stress>
+      </Skill>
+      <Skill>
+        <Name>shutdown</Name>
+        <Stress>2 </Stress>
+      </Skill>
+      <Skill>
+        <Name>emp</Name>
+        <Stress>4</Stress>
+      </Skill>
+    </Recommended>
+  </Settings>
+  <Skills>
+    <Skill>
+      <Name>shortcircuit</Name>
+      <Stress>1</Stress>
+    </Skill>
+    <Skill>
+      <Name>laser</Name>
+      <Stress>3</Stress>
+    </Skill>
+    <Skill>
+      <Name>1010</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>chalk</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>emp</Name>
+      <Stress>4</Stress>
+    </Skill>
+  </Skills>
+  <Tasks>
+    <Task id="1">
+      <Type>Work</Type>
+      <Title>The algorithm of the dust accumulation</Title>
+      <Duration>15</Duration>
+    </Task>
+    <Task id="2">
+      <Type>Work</Type>
+      <Title>How to shoot a laser without melting your own core</Title>
+      <Duration>20</Duration>
+    </Task>
+	<Task id="3">
+      <Type>Talk</Type>
+      <Title>Humans, how they messed all up and how the robots fixed it</Title>
+      <Duration>20</Duration>
+    </Task>
+	<Task id="4">
+      <Type>Work</Type>
+      <Title>How is made: A massive destruction portable rocket</Title>
+      <Duration>20</Duration>
+    </Task>
+  </Tasks>
+  <Walkthrough>
+    <Event>
+      <Time>0:05</Time>
+      <Type>dancing</Type>
+    </Event>
+    <Event>
+      <Time>0:08</Time>
+      <Type>annoyingNoises</Type>
+    </Event>
+    <Event>
+      <Time>0:13</Time>
+      <Type>annoyingNoises</Type>
+    </Event>
+    <Event>
+      <Time>0:20</Time>
+      <Type>dancing</Type>
+    </Event>
+    <Event>
+      <Time>0:25</Time>
+      <Type>annoyingNoises</Type>
+    </Event>
+    <Event>
+      <Time>0:30</Time>
+      <Type>dancing</Type>
+    </Event>
+    <Event>
+      <Time>0:33</Time>
+      <Type>dancing</Type>
+    </Event>
+    <Event>
+      <Time>0:40</Time>
+      <Type>annoyingNoises</Type>
+    </Event>
+  </Walkthrough>
+</Level>

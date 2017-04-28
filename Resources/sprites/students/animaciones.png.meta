@@ -1,0 +1,956 @@
+fileFormatVersion: 2
+guid: d8c21b60c4a0bd740bfa32d251c51ecd
+timeCreated: 1487200448
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: animaciones_0
+    21300002: animaciones_1
+    21300004: animaciones_2
+    21300006: animaciones_3
+    21300008: animaciones_4
+    21300010: animaciones_5
+    21300012: animaciones_6
+    21300014: animaciones_7
+    21300016: animaciones_8
+    21300018: animaciones_9
+    21300020: animaciones_10
+    21300022: animaciones_11
+    21300024: animaciones_12
+    21300026: animaciones_13
+    21300028: animaciones_14
+    21300030: animaciones_15
+    21300032: animaciones_16
+    21300034: animaciones_17
+    21300036: animaciones_18
+    21300038: animaciones_19
+    21300040: animaciones_20
+    21300042: animaciones_21
+    21300044: animaciones_22
+    21300046: animaciones_23
+    21300048: animaciones_24
+    21300050: animaciones_25
+    21300052: animaciones_26
+    21300054: animaciones_27
+    21300056: animaciones_28
+    21300058: animaciones_29
+    21300060: animaciones_30
+    21300062: animaciones_31
+    21300064: animaciones_32
+    21300066: animaciones_33
+    21300068: animaciones_34
+    21300070: animaciones_35
+    21300072: animaciones_36
+    21300074: animaciones_37
+    21300076: animaciones_38
+    21300078: animaciones_39
+    21300080: animaciones_40
+    21300082: animaciones_41
+    21300084: animaciones_42
+    21300086: animaciones_43
+    21300088: animaciones_44
+    21300090: animaciones_45
+    21300092: animaciones_46
+    21300094: animaciones_47
+    21300096: animaciones_48
+    21300098: animaciones_49
+    21300100: animaciones_50
+    21300102: animaciones_51
+    21300104: animaciones_52
+    21300106: animaciones_53
+    21300108: animaciones_54
+    21300110: animaciones_55
+    21300112: animaciones_56
+    21300114: animaciones_57
+    21300116: animaciones_58
+    21300118: animaciones_59
+    21300120: animaciones_60
+    21300122: animaciones_61
+    21300124: animaciones_62
+    21300126: animaciones_63
+    21300128: animaciones_64
+    21300130: animaciones_65
+    21300132: animaciones_66
+    21300134: animaciones_67
+    21300136: animaciones_68
+    21300138: animaciones_69
+    21300140: animaciones_70
+    21300142: animaciones_71
+    21300144: animaciones_72
+    21300146: animaciones_73
+    21300148: animaciones_74
+    21300150: animaciones_75
+    21300152: animaciones_76
+    21300154: animaciones_77
+    21300156: animaciones_78
+    21300158: animaciones_79
+    21300160: animaciones_80
+    21300162: animaciones_81
+    21300164: animaciones_82
+    21300166: animaciones_83
+    21300168: animaciones_84
+    21300170: animaciones_85
+    21300172: animaciones_86
+    21300174: animaciones_87
+    21300176: animaciones_88
+    21300178: animaciones_89
+    21300180: animaciones_90
+    21300182: animaciones_91
+    21300184: animaciones_92
+    21300186: animaciones_93
+    21300188: animaciones_94
+    21300190: animaciones_95
+    21300192: animaciones_96
+    21300194: animaciones_97
+    21300196: animaciones_98
+    21300198: animaciones_99
+    21300200: animaciones_100
+    21300202: animaciones_101
+    21300204: animaciones_102
+    21300206: animaciones_103
+    21300208: animaciones_104
+    21300210: animaciones_105
+    21300212: animaciones_106
+    21300214: animaciones_107
+    21300216: animaciones_108
+    21300218: animaciones_109
+    21300220: animaciones_110
+    21300222: animaciones_111
+    21300224: animaciones_112
+    21300226: animaciones_113
+    21300228: animaciones_114
+    21300230: animaciones_115
+    21300232: animaciones_116
+    21300234: animaciones_117
+    21300236: animaciones_118
+    21300238: animaciones_119
+    21300240: animaciones_120
+    21300242: animaciones_121
+    21300244: animaciones_122
+    21300246: animaciones_123
+    21300248: animaciones_124
+    21300250: animaciones_125
+    21300252: animaciones_126
+    21300254: animaciones_127
+    21300256: animaciones_128
+    21300258: animaciones_129
+    21300260: animaciones_130
+    21300262: animaciones_131
+    21300264: animaciones_132
+    21300266: animaciones_133
+    21300268: animaciones_134
+    21300270: animaciones_135
+    21300272: animaciones_136
+    21300274: animaciones_137
+    21300276: animaciones_138
+    21300278: animaciones_139
+    21300280: animaciones_140
+    21300282: animaciones_141
+    21300284: animaciones_142
+    21300286: animaciones_143
+    21300288: animaciones_144
+    21300290: animaciones_145
+    21300292: animaciones_146
+    21300294: animaciones_147
+    21300296: animaciones_148
+    21300298: animaciones_149
+    21300300: animaciones_150
+    21300302: animaciones_151
+    21300304: animaciones_152
+    21300306: animaciones_153
+    21300308: animaciones_154
+    21300310: animaciones_155
+    21300312: animaciones_156
+    21300314: animaciones_157
+    21300316: animaciones_158
+    21300318: animaciones_159
+    21300320: animaciones_160
+    21300322: animaciones_161
+    21300324: animaciones_162
+    21300326: animaciones_163
+    21300328: animaciones_164
+    21300330: animaciones_165
+    21300332: animaciones_166
+    21300334: animaciones_167
+    21300336: animaciones_168
+    21300338: animaciones_169
+    21300340: animaciones_170
+    21300342: animaciones_171
+    21300344: animaciones_172
+    21300346: animaciones_173
+    21300348: animaciones_174
+    21300350: animaciones_175
+    21300352: animaciones_176
+    21300354: animaciones_177
+    21300356: animaciones_178
+    21300358: animaciones_179
+    21300360: animaciones_180
+    21300362: animaciones_181
+    21300364: animaciones_182
+    21300366: animaciones_183
+    21300368: animaciones_184
+    21300370: animaciones_185
+    21300372: animaciones_186
+    21300374: animaciones_187
+    21300376: animaciones_188
+    21300378: animaciones_189
+    21300380: animaciones_190
+    21300382: animaciones_191
+    21300384: animaciones_192
+    21300386: animaciones_193
+    21300388: animaciones_194
+    21300390: animaciones_195
+    21300392: animaciones_196
+    21300394: animaciones_197
+    21300396: animaciones_198
+    21300398: animaciones_199
+    21300400: animaciones_200
+    21300402: animaciones_201
+    21300404: animaciones_202
+    21300406: animaciones_203
+    21300408: animaciones_204
+    21300410: animaciones_205
+    21300412: animaciones_206
+    21300414: animaciones_207
+    21300416: animaciones_208
+    21300418: animaciones_209
+    21300420: animaciones_210
+    21300422: animaciones_211
+    21300424: animaciones_212
+    21300426: animaciones_213
+    21300428: animaciones_214
+    21300430: animaciones_215
+    21300432: animaciones_216
+    21300434: animaciones_217
+    21300436: animaciones_218
+    21300438: animaciones_219
+    21300440: animaciones_220
+    21300442: animaciones_221
+    21300444: animaciones_222
+    21300446: animaciones_223
+    21300448: animaciones_224
+    21300450: animaciones_225
+    21300452: animaciones_226
+    21300454: animaciones_227
+    21300456: animaciones_228
+    21300458: animaciones_229
+    21300460: animaciones_230
+    21300462: animaciones_231
+    21300464: animaciones_232
+    21300466: animaciones_233
+    21300468: animaciones_234
+    21300470: animaciones_235
+    21300472: animaciones_236
+    21300474: animaciones_237
+    21300476: animaciones_238
+    21300478: animaciones_239
+    21300480: animaciones_240
+    21300482: animaciones_241
+    21300484: animaciones_242
+    21300486: animaciones_243
+    21300488: animaciones_244
+    21300490: animaciones_245
+    21300492: animaciones_246
+    21300494: animaciones_247
+    21300496: animaciones_248
+    21300498: animaciones_249
+    21300500: animaciones_250
+    21300502: animaciones_251
+    21300504: animaciones_252
+    21300506: animaciones_253
+    21300508: animaciones_254
+    21300510: animaciones_255
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animaciones_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animaciones_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Level><General><Tower>2</Tower>
+    <LevelNumber>15</LevelNumber><Students><rows>3</rows><columns>4</columns></Students><Duration>2:20</Duration><Music>Ablid</Music></General><Settings><Recommended><Skill><Name>shutdown</Name><Stress>1</Stress></Skill><Skill><Name>shortcircuit</Name><Stress>2</Stress></Skill><Skill><Name>1010</Name><Stress>2</Stress></Skill><Skill><Name>reset</Name><Stress>4</Stress></Skill><Skill><Name>emp</Name><Stress>4</Stress></Skill></Recommended></Settings>
+
+
+
+<Skills>
+    <Skill>
+      <Name>shutdown</Name>
+      <Stress>1</Stress>
+    </Skill>
+    <Skill>
+      <Name>shortcircuit</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>1010</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>reset</Name>
+      <Stress>4</Stress>
+    </Skill>
+    <Skill>
+      <Name>emp</Name>
+      <Stress>4</Stress>
+    </Skill>
+  </Skills>
+
+
+
+
+<Skills/><Tasks><Task id="1"><Type>Talk</Type><Title>"Sounds from 16 bit computers."</Title><Duration>10</Duration></Task><Task id="2"><Type>Work</Type><Title>"My favourite 16 bit song."</Title><Duration>5</Duration></Task><Task id="3"><Type>Blackboard</Type><Title>"The music chipset."</Title><Duration>5</Duration></Task><Task id="4"><Type>Talk</Type><Title>"The midi files."</Title><Duration>7</Duration></Task><Task id="5"><Type>Work</Type><Title>"Programming midi."</Title><Duration>5</Duration></Task><Task id="6"><Type>Blackboard</Type><Title>"Midi vs. real sounds."</Title><Duration>4</Duration></Task><Task id="7"><Type>Talk</Type><Title>"Midi limitations."</Title><Duration>5</Duration></Task><Task id="8"><Type>Work</Type><Title>"Using drums in our songs."</Title><Duration>4</Duration></Task><Task id="9"><Type>Blackboard</Type><Title>"Soundcards from the 90's."</Title><Duration>7</Duration></Task><Task id="10"><Type>Talk</Type><Title>"How to generate a midi file."</Title><Duration>15</Duration></Task><Task id="11"><Type>Talk</Type><Title>"How to insert the midi into the game."</Title><Duration>7</Duration></Task></Tasks>
+
+
+<Walkthrough><Event><Time>0:03</Time><Type>screensaver</Type></Event><Event><Time>0:06</Time><Type>screensaver</Type></Event><Event><Time>0:09</Time><Type>screensaver</Type></Event><Event><Time>0:12</Time><Type>internet</Type></Event><Event><Time>0:15</Time><Type>internet</Type></Event><Event><Time>0:18</Time><Type>internet</Type></Event><Event><Time>0:24</Time><Type>dancing</Type></Event><Event><Time>0:28</Time><Type>mailing</Type></Event><Event><Time>0:32</Time><Type>gaming</Type></Event><Event><Time>0:36</Time><Type>gaming</Type></Event><Event><Time>0:40</Time><Type>annoyingNoises</Type></Event><Event><Time>0:46</Time><Type>mailing</Type></Event><Event><Time>0:50</Time><Type>mailing</Type></Event><Event><Time>0:53</Time><Type>internet</Type></Event><Event><Time>0:58</Time><Type>screensaver</Type></Event><Event><Time>1:01</Time><Type>internet</Type></Event><Event><Time>1:04</Time><Type>internet</Type></Event><Event><Time>1:08</Time><Type>internet</Type></Event><Event><Time>1:12</Time><Type>mailing</Type></Event><Event><Time>1:15</Time><Type>screensaver</Type></Event><Event><Time>1:19</Time><Type>internet</Type></Event><Event><Time>1:24</Time><Type>internet</Type></Event><Event><Time>1:28</Time><Type>mailing</Type></Event><Event><Time>1:32</Time><Type>mailing</Type></Event><Event><Time>1:35</Time><Type>internet</Type></Event><Event><Time>1:39</Time><Type>gaming</Type></Event><Event><Time>1:43</Time><Type>mailing</Type></Event><Event><Time>1:46</Time><Type>mailing</Type></Event><Event><Time>1:52</Time><Type>shocking</Type></Event><Event><Time>1:55</Time><Type>screensaver</Type></Event><Event><Time>2:00</Time><Type>dancing</Type></Event><Event><Time>2:05</Time><Type>gaming</Type></Event><Event><Time>2:09</Time><Type>screensaver</Type></Event><Event><Time>2:14</Time><Type>internet</Type></Event></Walkthrough></Level>
