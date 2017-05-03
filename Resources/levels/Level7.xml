@@ -2,13 +2,12 @@
 <Level>
   <General>
     <LevelNumber>7</LevelNumber>
-	<Tower>0</Tower>
+    <Tower>0</Tower>
     <Students>
       <rows>3</rows>
       <columns>3</columns>
     </Students>
     <Duration>0:50</Duration>
-	
     <Music>i_professor</Music>
   </General>
   <Settings>
@@ -37,24 +36,24 @@
   </Settings>
   <Skills>
     <Skill>
-      <Name>shortcircuit</Name>
-      <Stress>1</Stress>
+      <Name>chalk</Name>
+      <Stress>2</Stress>
     </Skill>
     <Skill>
-      <Name>laser</Name>
-      <Stress>3</Stress>
+      <Name>shutdown</Name>
+      <Stress>2</Stress>
     </Skill>
     <Skill>
       <Name>1010</Name>
       <Stress>2</Stress>
     </Skill>
     <Skill>
-      <Name>chalk</Name>
-      <Stress>2</Stress>
+      <Name>lightning</Name>
+      <Stress>3</Stress>
     </Skill>
     <Skill>
-      <Name>emp</Name>
-      <Stress>4</Stress>
+      <Name>laser</Name>
+      <Stress>3</Stress>
     </Skill>
   </Skills>
   <Tasks>

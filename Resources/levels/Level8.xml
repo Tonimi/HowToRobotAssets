@@ -2,7 +2,7 @@
 <Level>
   <General>
     <LevelNumber>8</LevelNumber>
-	<Tower>0</Tower>
+    <Tower>0</Tower>
     <Students>
       <rows>3</rows>
       <columns>3</columns>
@@ -40,10 +40,6 @@
       <Stress>1</Stress>
     </Skill>
     <Skill>
-      <Name>laser</Name>
-      <Stress>3</Stress>
-    </Skill>
-    <Skill>
       <Name>1010</Name>
       <Stress>2</Stress>
     </Skill>
@@ -52,7 +48,11 @@
       <Stress>2</Stress>
     </Skill>
     <Skill>
-      <Name>emp</Name>
+      <Name>lightning</Name>
+      <Stress>3</Stress>
+    </Skill>
+    <Skill>
+      <Name>reset</Name>
       <Stress>4</Stress>
     </Skill>
   </Skills>
@@ -67,7 +67,7 @@
       <Title>How to construct your own accessories</Title>
       <Duration>20</Duration>
     </Task>
-	<Task id="3">
+    <Task id="3">
       <Type>Talk</Type>
       <Title>Robot Wars, is it possible that will happen again?</Title>
       <Duration>20</Duration>
@@ -110,7 +110,7 @@
       <Time>0:45</Time>
       <Type>internet</Type>
     </Event>
-	   <Event>
+    <Event>
       <Time>0:50</Time>
       <Type>internet</Type>
     </Event>

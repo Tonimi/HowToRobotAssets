@@ -1,32 +1,152 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><Level><General><Tower>2</Tower>
-    <LevelNumber>16</LevelNumber><Students><rows>2</rows><columns>3</columns></Students><Duration>1:23</Duration><Music>dont_stop_the_class</Music></General><Settings><Recommended><Skill><Name>shutdown</Name><Stress>1</Stress></Skill><Skill><Name>shortcircuit</Name><Stress>2</Stress></Skill><Skill><Name>1010</Name><Stress>2</Stress></Skill><Skill><Name>reset</Name><Stress>4</Stress></Skill><Skill><Name>emp</Name><Stress>4</Stress></Skill></Recommended></Settings>
-
-<Skills>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Level>
+  <General>
+    <Tower>2</Tower>
+    <LevelNumber>16</LevelNumber>
+    <Students>
+      <rows>2</rows>
+      <columns>3</columns>
+    </Students>
+    <Duration>1:23</Duration>
+    <Music>dont_stop_the_class</Music>
+  </General>
+  <Settings>
+    <Recommended>
+      <Skill>
+        <Name>shutdown</Name>
+        <Stress>1</Stress>
+      </Skill>
+      <Skill>
+        <Name>shortcircuit</Name>
+        <Stress>2</Stress>
+      </Skill>
+      <Skill>
+        <Name>1010</Name>
+        <Stress>2</Stress>
+      </Skill>
+      <Skill>
+        <Name>reset</Name>
+        <Stress>4</Stress>
+      </Skill>
+      <Skill>
+        <Name>emp</Name>
+        <Stress>4</Stress>
+      </Skill>
+    </Recommended>
+  </Settings>
+  <Skills>
     <Skill>
       <Name>shutdown</Name>
       <Stress>1</Stress>
-    </Skill>
-    <Skill>
-      <Name>shortcircuit</Name>
-      <Stress>2</Stress>
     </Skill>
     <Skill>
       <Name>1010</Name>
       <Stress>2</Stress>
     </Skill>
     <Skill>
-      <Name>reset</Name>
-      <Stress>4</Stress>
+      <Name>shortcircuit</Name>
+      <Stress>2</Stress>
     </Skill>
     <Skill>
       <Name>emp</Name>
       <Stress>4</Stress>
     </Skill>
+    <Skill>
+      <Name>reset</Name>
+      <Stress>4</Stress>
+    </Skill>
   </Skills>
-
-
-<Skills/>
-
-<Tasks><Task id="1"><Type>Work</Type><Title>"My electrical pet."</Title><Duration>10</Duration></Task><Task id="2"><Type>Talk</Type><Title>"Making melodies with a floppy  disk reader."</Title><Duration>25</Duration></Task><Task id="3"><Type>Talk</Type><Title>"How video killed the radio..."</Title><Duration>10</Duration></Task><Task id="4"><Type>Work</Type><Title>"Did you enjoyed this class?"</Title><Duration>5</Duration></Task></Tasks><Walkthrough>
-
-<Event><Time>0:03</Time><Type>gaming</Type></Event><Event><Time>0:06</Time><Type>mailing</Type></Event><Event><Time>0:11</Time><Type>joking</Type></Event><Event><Time>0:16</Time><Type>annoyingNoises</Type></Event><Event><Time>0:21</Time><Type>internet</Type></Event><Event><Time>0:24</Time><Type>screensaver</Type></Event><Event><Time>0:28</Time><Type>shocking</Type></Event><Event><Time>0:32</Time><Type>joking</Type></Event><Event><Time>0:36</Time><Type>joking</Type></Event><Event><Time>0:43</Time><Type>mailing</Type></Event><Event><Time>0:48</Time><Type>mailing</Type></Event><Event><Time>0:52</Time><Type>internet</Type></Event><Event><Time>0:55</Time><Type>screensaver</Type></Event><Event><Time>1:00</Time><Type>screensaver</Type></Event><Event><Time>1:03</Time><Type>internet</Type></Event><Event><Time>1:08</Time><Type>screensaver</Type></Event><Event><Time>1:15</Time><Type>gaming</Type></Event></Walkthrough></Level>
+  <Skills />
+  <Tasks>
+    <Task id="1">
+      <Type>Work</Type>
+      <Title>"My electrical pet."</Title>
+      <Duration>10</Duration>
+    </Task>
+    <Task id="2">
+      <Type>Talk</Type>
+      <Title>"Making melodies with a floppy  disk reader."</Title>
+      <Duration>25</Duration>
+    </Task>
+    <Task id="3">
+      <Type>Talk</Type>
+      <Title>"How video killed the radio..."</Title>
+      <Duration>10</Duration>
+    </Task>
+    <Task id="4">
+      <Type>Work</Type>
+      <Title>"Did you enjoyed this class?"</Title>
+      <Duration>5</Duration>
+    </Task>
+  </Tasks>
+  <Walkthrough>
+    <Event>
+      <Time>0:03</Time>
+      <Type>gaming</Type>
+    </Event>
+    <Event>
+      <Time>0:06</Time>
+      <Type>mailing</Type>
+    </Event>
+    <Event>
+      <Time>0:11</Time>
+      <Type>joking</Type>
+    </Event>
+    <Event>
+      <Time>0:16</Time>
+      <Type>annoyingNoises</Type>
+    </Event>
+    <Event>
+      <Time>0:21</Time>
+      <Type>internet</Type>
+    </Event>
+    <Event>
+      <Time>0:24</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>0:28</Time>
+      <Type>shocking</Type>
+    </Event>
+    <Event>
+      <Time>0:32</Time>
+      <Type>joking</Type>
+    </Event>
+    <Event>
+      <Time>0:36</Time>
+      <Type>joking</Type>
+    </Event>
+    <Event>
+      <Time>0:43</Time>
+      <Type>mailing</Type>
+    </Event>
+    <Event>
+      <Time>0:48</Time>
+      <Type>mailing</Type>
+    </Event>
+    <Event>
+      <Time>0:52</Time>
+      <Type>internet</Type>
+    </Event>
+    <Event>
+      <Time>0:55</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>1:00</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>1:03</Time>
+      <Type>internet</Type>
+    </Event>
+    <Event>
+      <Time>1:08</Time>
+      <Type>screensaver</Type>
+    </Event>
+    <Event>
+      <Time>1:15</Time>
+      <Type>gaming</Type>
+    </Event>
+  </Walkthrough>
+</Level>

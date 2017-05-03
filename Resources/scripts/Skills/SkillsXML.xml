@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SkillsXML>
+<Type id="individual">
+	<Skill id="Shutdown">
+		<StressCost>1</StressCost>
+		<Cooldown>10</Cooldown>
+		<Destructive>N<Destructive>
+		<Description></Description>
+	</Skill>
+	<Skill id="Shortcircuit">
+		<StressCost>1</StressCost>
+		<Cooldown>25</Cooldown>
+		<Destructive>N<Destructive>
+		<Description></Description>
+	</Skill>
+	<Skill id="Chalk">
+		<StressCost>2</StressCost>
+		<Cooldown>15</Cooldown>
+		<Destructive>N<Destructive>
+		<Description></Description>
+	</Skill>
+	<Skill id="Expulsion">
+		<StressCost>2</StressCost>
+		<Cooldown>30</Cooldown>
+		<Destructive>N<Destructive>
+		<Description></Description>
+	</Skill>
+	<Skill id="Laser">
+		<StressCost>3</StressCost>
+		<Cooldown>20</Cooldown>
+		<Destructive>Y<Destructive>
+		<Description></Description>
+	</Skill>
+</Type>
+<Type id="relax">
+	<Skill id="CountTil1010">
+		<StressCost>2</StressCost>
+		<Cooldown>5</Cooldown>
+		<Description></Description>
+	</Skill>
+	<Skill id="Reset">
+		<StressCost>4</StressCost>
+		<Cooldown>40</Cooldown>
+		<Description></Description>
+	</Skill>
+	
+</Type>
+<Type id="massive">
+	<Skill id="EMP">
+		<StressCost>4</StressCost>
+		<Cooldown>30</Cooldown>
+		<Destructive>N<Destructive>
+		<Description></Description>
+	</Skill>
+	<Skill id="Laser">
+		<StressCost>3</StressCost>
+		<Cooldown>25</Cooldown>
+		<Destructive>Y<Destructive>
+		<Description></Description>
+	</Skill>
+</Type>
+</SkillsXML>

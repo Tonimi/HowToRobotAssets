@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Level>
   <General>
     <LevelNumber>3</LevelNumber>
@@ -61,11 +61,39 @@
     </Skill>
     <Skill>
       <Name>1010</Name>
-      <Stress>2</Stress> 
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>none</Name>
+      <Stress>0</Stress>
+    </Skill>
+    <Skill>
+      <Name>none</Name>
+      <Stress>0</Stress>
+    </Skill>
+    <Skill>
+      <Name>none</Name>
+      <Stress>0</Stress>
+    </Skill>
+    <Skill>
+      <Name>shutdown</Name>
+      <Stress>1</Stress>
+    </Skill>
+    <Skill>
+      <Name>1010</Name>
+      <Stress>2</Stress>
     </Skill>
     <Skill>
       <Name>emp</Name>
       <Stress>4</Stress>
+    </Skill>
+    <Skill>
+      <Name>none</Name>
+      <Stress>0</Stress>
+    </Skill>
+    <Skill>
+      <Name>none</Name>
+      <Stress>0</Stress>
     </Skill>
   </Skills>
   <Tasks>
