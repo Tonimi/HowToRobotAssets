@@ -36,6 +36,14 @@
   </Settings>
   <Skills>
     <Skill>
+      <Name>laser</Name>
+      <Stress>3</Stress>
+    </Skill>
+    <Skill>
+      <Name>1010</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
       <Name>chalk</Name>
       <Stress>2</Stress>
     </Skill>
@@ -44,16 +52,8 @@
       <Stress>2</Stress>
     </Skill>
     <Skill>
-      <Name>1010</Name>
-      <Stress>2</Stress>
-    </Skill>
-    <Skill>
-      <Name>lightning</Name>
-      <Stress>3</Stress>
-    </Skill>
-    <Skill>
-      <Name>laser</Name>
-      <Stress>3</Stress>
+      <Name>emp</Name>
+      <Stress>4</Stress>
     </Skill>
   </Skills>
   <Tasks>

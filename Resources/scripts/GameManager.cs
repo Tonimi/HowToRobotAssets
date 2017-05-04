@@ -146,6 +146,8 @@ public class GameManager : MonoBehaviour
     public Text score;
 
 
+    public GameObject BG;
+
 
     // Use this for initialization
     void Awake()
@@ -173,10 +175,10 @@ public class GameManager : MonoBehaviour
         musicClips.Add("dont_stop_the_class", Resources.Load<AudioClip>("music/HTR-dont_stop_the_class"));
         musicClips.Add("i_professor", Resources.Load<AudioClip>("music/HTR-i_professor"));
 		musicClips.Add("ablid", Resources.Load<AudioClip>("music/HTR-ablid"));
-																			  
+        towerNumber = PlayerPrefs.GetString("tower");
+
         stress = 0;
         actualTask = 0;
-
         //Set sound toggles
         if (PlayerPrefs.GetInt("music") == 1)
         {
@@ -194,13 +196,14 @@ public class GameManager : MonoBehaviour
         {
             sfxToggle.isOn = false;
         }
+        
     }
 
     void Start()
     {
         //totalLevelTime = totalTime;
 
-        readTasks();
+        readXML();
 
         // Cargar habilidades y estudiantes
         skillGo = GameObject.FindGameObjectsWithTag("Skill");
@@ -260,14 +263,14 @@ public class GameManager : MonoBehaviour
             if (timer1 > timer2) //We do all the stuff  each second
             {
 
-                print("Quedan " + totalTime + " segundos");
+                Debug.Log("Quedan " + totalTime + " segundos");
                 timeLeft = totalTime--;
 
 
 
                 if (timeLeft <= 0)
                 {
-                    print("END OF THE CLASS");
+                    Debug.Log("END OF THE CLASS");
                     deadby = "timeup";
                     StartCoroutine(gameOver(deadby));
 
@@ -285,7 +288,7 @@ public class GameManager : MonoBehaviour
                         stressMultiplier = 0;
                         taskMultiplier = 1;
                     }
-                    print("there are " + totalStudentsDisturbing + " students disturbing");
+                    Debug.Log("there are " + totalStudentsDisturbing + " students disturbing");
 
 
                     //Decrease students' cooldown
@@ -316,7 +319,7 @@ public class GameManager : MonoBehaviour
                         actualTask++;
                         if (actualTask == tasks.Count)
                         {
-                            print("salgo");
+                            Debug.Log("salgo");
                             StartCoroutine(gameOver("win"));
                         }
                         else
@@ -335,7 +338,7 @@ public class GameManager : MonoBehaviour
                         minutesSinceStart = (int)timesinceStart / 60;
                         timeText = minutesSinceStart + ":" + secondsSinceStart.ToString("00");
 
-                        print(timeText);
+                        Debug.Log(timeText);
                         elements = conflicts[lineCounter].Split(delimiter);
 
                         if ((conflicts[lineCounter] != "") && (elements[0] == timeText))
@@ -343,8 +346,8 @@ public class GameManager : MonoBehaviour
 
                             //We activate the conflict with the same name as elements[1]
                             //
-                            print(elements[1] + " conflict has been activated...");
-                            print(elements[1].GetType());
+                            Debug.Log(elements[1] + " conflict has been activated...");
+                            Debug.Log(elements[1].GetType());
 
                             actualConflict = GetComponent<Conflict>().getTypeConflict(elements[1]);
 
@@ -352,8 +355,8 @@ public class GameManager : MonoBehaviour
 
                             activateConflict(actualConflict, elements[1]);
 
-                            print("Time: " + elements[0]);
-                            print("Type: " + elements[1]);
+                            Debug.Log("Time: " + elements[0]);
+                            Debug.Log("Type: " + elements[1]);
 
                             lineCounter++;
                         }
@@ -537,7 +540,7 @@ public class GameManager : MonoBehaviour
             case "individual":
 
 
-                print("And is type individual");
+                Debug.Log("And is type individual");
 
                 if (listeningStudents.Count > 0)
                 {
@@ -553,7 +556,7 @@ public class GameManager : MonoBehaviour
             case "dual":
 
 
-                print("And is type dual");
+                Debug.Log("And is type dual");
 
                 if (listeningStudents.Count > 1)
 
@@ -583,7 +586,7 @@ public class GameManager : MonoBehaviour
                 break;
             case "massive":
 
-                print("And is type massive");
+                Debug.Log("And is type massive");
 
                 if (listeningStudents.Count > 3)
 
@@ -763,7 +766,7 @@ public class GameManager : MonoBehaviour
 
 
     //Task reader
-    void readTasks()
+    void readXML()
     {
         TextAsset textAsset = new TextAsset();
 
@@ -772,16 +775,18 @@ public class GameManager : MonoBehaviour
 
         //To choose the level from the selector
         textAsset = (TextAsset)Resources.Load("levels/" + PlayerPrefs.GetString("level"));
-        print("Abrimos nivel " + PlayerPrefs.GetString("level"));
+        Debug.Log("Abrimos nivel " + PlayerPrefs.GetString("level"));
 
-        print(textAsset.text);
+        Debug.Log(textAsset.text);
         readerXML.LoadXml(textAsset.text);
-        towerNumber= readerXML.DocumentElement.SelectSingleNode("/Level/General/Tower").InnerText;
         string music = readerXML.DocumentElement.SelectSingleNode("/Level/General/Music").InnerText;
         this.GetComponent<AudioSource>().clip = musicClips[music];
 
-        
-		string timeParser = readerXML.DocumentElement.SelectSingleNode("/Level/General/Duration").InnerText;
+
+        Debug.Log("Se ha pintado la clase classrooms/class_" + towerNumber);
+        BG.GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/classrooms/class_" + towerNumber);
+
+        string timeParser = readerXML.DocumentElement.SelectSingleNode("/Level/General/Duration").InnerText;
         string[] tok = timeParser.Split(':');
         int minToSec = int.Parse(tok[0]) * 60;
         int sec = int.Parse(tok[1]);
@@ -813,7 +818,7 @@ public class GameManager : MonoBehaviour
                 if (name == skillPrefabs[j].name)
                 {
                     found = true;
-                    print("ENCONTRAO " + name);
+                    Debug.Log("ENCONTRAO " + name);
                 }
                 else
                 {
@@ -845,34 +850,34 @@ public class GameManager : MonoBehaviour
             elements[0] = node.SelectSingleNode("Type").InnerText;
             elements[1] = node.SelectSingleNode("Title").InnerText;
             elements[2] = node.SelectSingleNode("Duration").InnerText;
-            print("Type: " + elements[0]);
-            print("Title: " + elements[1]);
-            print("Duration: " + elements[2]);
+            Debug.Log("Type: " + elements[0]);
+            Debug.Log("Title: " + elements[1]);
+            Debug.Log("Duration: " + elements[2]);
             tasks.Add(new Task(elements[0], elements[1], float.Parse(elements[2])));
 
         }
 
         nodesDocument = readerXML.DocumentElement.SelectNodes("/Level/Walkthrough/Event");
         
-        print(nodesDocument.Count);
+        Debug.Log(nodesDocument.Count);
         foreach (XmlNode node in nodesDocument)//reading from the XML
         {
-            print("Time: " + node.SelectSingleNode("Time").InnerText);
-            print("Title: " + node.SelectSingleNode("Type").InnerText);
+            Debug.Log("Time: " + node.SelectSingleNode("Time").InnerText);
+            Debug.Log("Title: " + node.SelectSingleNode("Type").InnerText);
             conflicts.Add(node.SelectSingleNode("Time").InnerText + "-" + node.SelectSingleNode("Type").InnerText);
 
         }
 
-        print("Hay " + conflicts.Count + " conflictos");
+        Debug.Log("Hay " + conflicts.Count + " conflictos");
 
 
 
-        print("--STARTING WALKTHROUGH--");
+        Debug.Log("--STARTING WALKTHROUGH--");
     }
 
     public void setStress(int stressLevel)
     {
-        print("Lo pongo a " + stressLevel);
+        Debug.Log("Lo pongo a " + stressLevel);
         //revisar
         childRedBar.GetComponent<Image>().fillAmount = stressLevel * 0.2f;
         float actualAmountOrange = childOrangeBar.GetComponent<Image>().fillAmount%0.2f;
@@ -901,7 +906,7 @@ public class GameManager : MonoBehaviour
         }
         Time.timeScale = 0f;
         isGameOver = true;
-        print("Es Gameover? " + isGameOver);
+        Debug.Log("Es Gameover? " + isGameOver);
         switch (deadby)
         {
             case "timeup":
@@ -971,7 +976,7 @@ public class GameManager : MonoBehaviour
                 restartGame();
                 break;
             default:
-                print("No idea why I'm dead");
+                Debug.Log("No idea why I'm dead");
                 break;
         }
     }
@@ -1037,7 +1042,7 @@ public class GameManager : MonoBehaviour
             {
                 timerText.color = new Color(f, 0, 0);
                 adding = (int)(f * 10);
-                print(adding);
+                Debug.Log(adding);
                 timerText.fontSize = i + adding;
                 yield return null;
             }
@@ -1046,13 +1051,17 @@ public class GameManager : MonoBehaviour
 
     public void exitGame()
     {
-        print("SALIR");
+        Debug.Log("SALIR");
         SceneManager.LoadScene("tower");
     }
 
     public void TogglePauseMenu()
     {
-
+        AudioSource[] allAudioSources =  FindObjectsOfType<AudioSource>();
+        for(int i=0; i < allAudioSources.Length; i++)
+        {
+            allAudioSources[i].Pause();
+        }
         // not the optimal way but for the sake of readability
         if (pauseMenu.GetComponentInChildren<Canvas>().enabled)
         {
@@ -1075,6 +1084,10 @@ public class GameManager : MonoBehaviour
             paused = false;
             pauseMenu.GetComponentInChildren<Canvas>().enabled = false;
             Time.timeScale = 1.0f;
+            for (int i = 0; i < allAudioSources.Length; i++)
+            {
+                allAudioSources[i].UnPause();
+            }
         }
         else
         {
@@ -1098,8 +1111,7 @@ public class GameManager : MonoBehaviour
             pauseMenu.GetComponentInChildren<Canvas>().enabled = true;
             Time.timeScale = 0f;
         }
-
-        Debug.Log("GAMEMANAGER:: TimeScale: " + Time.timeScale);
+        
     }
 
     public void setMusic()
@@ -1228,7 +1240,7 @@ public class GameManager : MonoBehaviour
                         taskCompletion = taskCompletion - (1 * taskMultiplier);//for now we do it as in Talk tasks, later we have to adapt it
                         break;
                     default:
-                        print("ERROR");
+                        Debug.Log("ERROR");
                         break;
                 }
             }
