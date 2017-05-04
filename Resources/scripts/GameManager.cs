@@ -130,7 +130,6 @@ public class GameManager : MonoBehaviour
     GameObject blackboard;
     float height = 0f;
 
-    public GameObject background;
 
 
     Dictionary<string, AudioClip> audioClipsPause = new Dictionary<string, AudioClip>();
@@ -781,9 +780,8 @@ public class GameManager : MonoBehaviour
         string music = readerXML.DocumentElement.SelectSingleNode("/Level/General/Music").InnerText;
         this.GetComponent<AudioSource>().clip = musicClips[music];
 
-        background.GetComponent<Image>().sprite= Resources.Load<Sprite>("sprites/classes/class_"+towerNumber);
-
-        string timeParser = readerXML.DocumentElement.SelectSingleNode("/Level/General/Duration").InnerText;
+        
+		string timeParser = readerXML.DocumentElement.SelectSingleNode("/Level/General/Duration").InnerText;
         string[] tok = timeParser.Split(':');
         int minToSec = int.Parse(tok[0]) * 60;
         int sec = int.Parse(tok[1]);

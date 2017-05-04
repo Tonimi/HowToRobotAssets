@@ -40,16 +40,16 @@
       <Stress>1</Stress>
     </Skill>
     <Skill>
-      <Name>chalk</Name>
-      <Stress>2</Stress>
-    </Skill>
-    <Skill>
       <Name>1010</Name>
       <Stress>2</Stress>
     </Skill>
     <Skill>
-      <Name>shutdown</Name>
+      <Name>chalk</Name>
       <Stress>2</Stress>
+    </Skill>
+    <Skill>
+      <Name>lightning</Name>
+      <Stress>3</Stress>
     </Skill>
     <Skill>
       <Name>reset</Name>

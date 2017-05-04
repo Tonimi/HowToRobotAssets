@@ -2408,7 +2408,6 @@ MonoBehaviour:
   stressSpeed: 0.002
   musicToggle: {fileID: 311}
   sfxToggle: {fileID: 1629172314}
-  background: {fileID: 967991497}
   slots:
   - {fileID: 1048984519}
   - {fileID: 1919211214}
