@@ -26,35 +26,6 @@ public class towerManager : MonoBehaviour {
         audioClipsPause.Add("click_B", Resources.Load<AudioClip>("sfx/menu/click_B"));
 
         paused = false;
-
-        //Ponemos los sprites de puntuación
-        foreach(Transform child in GameObject.Find("TowerImage").transform)
-        {
-            print(child.name);
-            if (child.transform.childCount>0)//Cogemos la imagen de cada uno
-            {
-                switch(PlayerPrefs.GetString("Level"+numberTower+child.name + "score"))
-                {
-                    case "A":
-                        child.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/ScoreA");
-                        break;
-                    case "B":
-                        child.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/ScoreB");
-                        break;
-                    case  "C":
-                        child.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/ScoreC");
-                        break;
-                    case "FAIL":
-                        child.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/ScoreFAIL");
-                        break;
-                    default:
-                        child.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/ScoreFAIL");
-                        break;
-                }
-                
-                print("YOH");
-            }
-        }
         loadTower();
 
         //SceneManager.sceneLoaded += this.OnLoadCallback;

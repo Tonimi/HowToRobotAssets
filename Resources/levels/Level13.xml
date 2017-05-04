@@ -2,7 +2,7 @@
 <Level>
   <General>
     <LevelNumber>3</LevelNumber>
-    <Tower>1</Tower>
+	<Tower>1</Tower>
     <Students>
       <rows>2</rows>
       <columns>3</columns>
@@ -40,20 +40,20 @@
       <Stress>1</Stress>
     </Skill>
     <Skill>
+      <Name>1010</Name>
+      <Stress>2</Stress>
+    </Skill>
+    <Skill>
       <Name>chalk</Name>
       <Stress>2</Stress>
     </Skill>
     <Skill>
-      <Name>lightning</Name>
-      <Stress>3</Stress>
+      <Name>emp</Name>
+      <Stress>4</Stress>
     </Skill>
     <Skill>
       <Name>reset</Name>
       <Stress>4</Stress>
-    </Skill>
-    <Skill>
-      <Name>null</Name>
-      <Stress>9</Stress>
     </Skill>
   </Skills>
   <Skills />

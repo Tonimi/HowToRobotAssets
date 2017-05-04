@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Level>
   <General>
-    <Tower>2</Tower>
+	<Tower>2</Tower>
     <LevelNumber>17</LevelNumber>
     <Students>
       <rows>3</rows>
@@ -13,7 +13,7 @@
   <Settings>
     <Recommended>
       <Skill>
-        <Name>shutdown</Name>
+        <Name>shutdown</Name>	
         <Stress>1</Stress>
       </Skill>
       <Skill>
@@ -36,8 +36,8 @@
   </Settings>
   <Skills>
     <Skill>
-      <Name>none</Name>
-      <Stress>0</Stress>
+      <Name>chalk</Name>
+      <Stress>2</Stress>
     </Skill>
     <Skill>
       <Name>shutdown</Name>
@@ -48,7 +48,7 @@
       <Stress>2</Stress>
     </Skill>
     <Skill>
-      <Name>chalk</Name>
+      <Name>laser</Name>
       <Stress>2</Stress>
     </Skill>
     <Skill>
@@ -56,7 +56,7 @@
       <Stress>4</Stress>
     </Skill>
   </Skills>
-  <Skills />
+  <Skills/>
   <Tasks>
     <Task id="1">
       <Type>Talk</Type>

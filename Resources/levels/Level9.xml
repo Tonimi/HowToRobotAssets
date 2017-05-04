@@ -2,13 +2,13 @@
 <Level>
   <General>
     <LevelNumber>9</LevelNumber>
-    <Tower>0</Tower>
+	<Tower>0</Tower>
     <Students>
       <rows>3</rows>
       <columns>3</columns>
     </Students>
     <Duration>1:00</Duration>
-    <Music>ablid</Music>
+	<Music>ablid</Music>
   </General>
   <Settings>
     <Recommended>
@@ -36,24 +36,24 @@
   </Settings>
   <Skills>
     <Skill>
-      <Name>chalk</Name>
-      <Stress>2</Stress>
+      <Name>shortcircuit</Name>
+      <Stress>1</Stress>
     </Skill>
     <Skill>
-      <Name>shutdown</Name>
-      <Stress>2</Stress>
+      <Name>laser</Name>
+      <Stress>3</Stress>
     </Skill>
     <Skill>
       <Name>1010</Name>
       <Stress>2</Stress>
     </Skill>
     <Skill>
-      <Name>lightning</Name>
-      <Stress>3</Stress>
+      <Name>chalk</Name>
+      <Stress>2</Stress>
     </Skill>
     <Skill>
-      <Name>laser</Name>
-      <Stress>3</Stress>
+      <Name>emp</Name>
+      <Stress>4</Stress>
     </Skill>
   </Skills>
   <Tasks>
@@ -67,12 +67,12 @@
       <Title>How to shoot a laser without melting your own core</Title>
       <Duration>20</Duration>
     </Task>
-    <Task id="3">
+	<Task id="3">
       <Type>Talk</Type>
       <Title>Humans, how they messed all up and how the robots fixed it</Title>
       <Duration>20</Duration>
     </Task>
-    <Task id="4">
+	<Task id="4">
       <Type>Work</Type>
       <Title>How is made: A massive destruction portable rocket</Title>
       <Duration>20</Duration>
