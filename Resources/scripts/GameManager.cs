@@ -143,6 +143,7 @@ public class GameManager : MonoBehaviour
 
     //Score
     int initialStudents,totalStudents;
+    public Text score;
 
 
 
@@ -795,25 +796,33 @@ public class GameManager : MonoBehaviour
         }
 
         // Leemos las skills
-        nodesDocument = readerXML.DocumentElement.SelectNodes("/Level/Skills/Skill");
-        for (int i = 0; i < nodesDocument.Count; i++)
+        //
+        string skills = PlayerPrefs.GetString("PlayerSkills");
+        string[] PlayerSkills = PlayerPrefs.GetString("PlayerSkills").Split('/');
+        int i = 0;
+        foreach (string sk in PlayerSkills)
         {
+            
             bool found = false;
             int j = 0;
+
+            //Esto de aquí hace falta???vvvvv
             while (!found && j < skillPrefabs.Length)
             {
-                string name = nodesDocument[i].SelectSingleNode("Name").InnerText;
+                string name = sk;
                 if (name == skillPrefabs[j].name)
                 {
                     found = true;
-                    print("ENCONTRAO"+name);
+                    print("ENCONTRAO " + name);
                 }
                 else
                 {
                     j++;
                 }
             }
-            if (found)
+            //^^^^^^^^
+
+            if (found)//if (name==skillPrefabs.name)
             {
                 GameObject skill = Instantiate(skillPrefabs[j], skillUI.transform);
 
@@ -824,9 +833,9 @@ public class GameManager : MonoBehaviour
                 skill.GetComponent<RectTransform>().anchoredPosition = slots[i].GetComponent<RectTransform>().anchoredPosition;
                 skill.GetComponent<Skill>().setColor(Color.gray);
                 Destroy(slots[i]);
+                i++;
             }
         }
-
 
         nodesDocument = readerXML.DocumentElement.SelectNodes("/Level/Tasks/Task");
 
@@ -898,10 +907,14 @@ public class GameManager : MonoBehaviour
             case "timeup":
 
                 if (totalStudents >= (initialStudents - 1)){ //se ha destruido como mucho un alumno
-                PlayerPrefs.SetString("score", "B");
-                }else
+                    PlayerPrefs.SetString(PlayerPrefs.GetString("level")+"score", "B");
+
+                    score.text = "You got a B";
+                }
+                else
                 {
-                    PlayerPrefs.SetString("score", "C");
+                    PlayerPrefs.SetString(PlayerPrefs.GetString("level") + "score", "C");
+                    score.text = "You got a C";
                 }
 
                 timeUpSprite.SetActive(true);
@@ -912,7 +925,7 @@ public class GameManager : MonoBehaviour
 
                 break;
             case "stress":
-                PlayerPrefs.SetString("score", "FAIL");
+                PlayerPrefs.SetString(PlayerPrefs.GetString("level")+"score", "FAIL");
                 Time.timeScale = 1f;
                 professor.GetComponent<Animator>().Play("professor_explode", -1, 0f);
 
@@ -936,15 +949,15 @@ public class GameManager : MonoBehaviour
                 //Record score
                 if (totalStudents ==initialStudents)
                 { //se ha destruido como mucho un alumno
-                    PlayerPrefs.SetString("score", "A");
+                    PlayerPrefs.SetString(PlayerPrefs.GetString("level")+"score", "A");
                 }
                 else if(totalStudents==(initialStudents-1))
                 {
-                    PlayerPrefs.SetString("score", "B");
+                    PlayerPrefs.SetString(PlayerPrefs.GetString("level")+"score", "B");
                 }
                 else //si se han destruido + de 1 alumno
                 {
-                    PlayerPrefs.SetString("score", "C");
+                    PlayerPrefs.SetString(PlayerPrefs.GetString("level")+"score", "C");
                 }
 
 

@@ -23,6 +23,7 @@ public class PopupMenu : MonoBehaviour
     private GameObject[] skills;
     private List<MenuSkill> activeSkills;
     private List<MenuSkill> recommendedSkills;
+    private string[] skillsPlayer;
 
     // Task Panel
     private GameObject[] tasks;
@@ -68,6 +69,9 @@ public class PopupMenu : MonoBehaviour
 
             this.GetComponent<AudioSource>().enabled = true;
         }
+
+        skillsPlayer = PlayerPrefs.GetString("PlayerSkills").Split('/');
+        //PlayerPrefs.SetString("PlayerSkills", "");
     }
 
     // Update is called once per frame
@@ -109,6 +113,70 @@ public class PopupMenu : MonoBehaviour
 
         readerXML.LoadXml(textAsset.text);
 
+        //
+        PlayerPrefs.GetString("Skills");
+        string[] skills = PlayerPrefs.GetString("PlayerSkills").Split('/');
+        foreach(string skill in skills) {
+
+        }
+        //
+
+        ////Mirar esto
+        //XmlNodeList nodesDocument = readerXML.DocumentElement.SelectNodes("/Level/Settings");
+        //if (nodesDocument[0].SelectSingleNode("SpecialConditions").FirstChild.Value == "Y")//añadir un special conditions al xml 
+        //{
+        //    //Aquí por ejemplo, escribiremos en la zona de "recommended" las habilidades que se deben usar,
+        //    //en caso de estar limitadas por el nivel
+        //    nodesDocument = readerXML.DocumentElement.SelectNodes("/Level/Settings/Recommended/Skill");
+        //    //Escribimos en el documento que las habilidades recomendadas sean las habilidades del nivel (hasta que no se demuestre lo contrario)
+        //    XmlNode nodesSkills = readerXML.DocumentElement.SelectSingleNode("/Level/Skills");
+        //    nodesSkills.RemoveAll();
+
+        //    for (int i = 0; i < nodesDocument.Count; i++)
+        //    {
+        //        MenuSkill sk = new MenuSkill();
+        //        sk.skName = nodesDocument[i].SelectSingleNode("Name").InnerText;
+        //        sk.stressLevel = int.Parse(nodesDocument[i].SelectSingleNode("Stress").InnerText);
+
+        //        print("GUARDO " + sk.skName);
+
+        //        XmlNode newNode = readerXML.CreateNode(XmlNodeType.Element, "Skill", null);
+        //        XmlNode titleNode = readerXML.CreateNode(XmlNodeType.Element, "Name", null);
+        //        titleNode.InnerText = sk.skName;
+        //        XmlNode stressNode = readerXML.CreateNode(XmlNodeType.Element, "Stress", null);
+        //        stressNode.InnerText = sk.stressLevel.ToString();
+
+        //        newNode.AppendChild(titleNode);
+        //        newNode.AppendChild(stressNode);
+        //        nodesSkills.AppendChild(newNode);
+
+        //        readerXML.Save("Assets/Resources/levels/" + level + ".xml");
+
+        //        //
+        //        activeSkills.Add(sk);
+        //        recommendedSkills.Add((MenuSkill)sk.Clone());
+        //    }
+
+        //    //Si se veta a un número determinado de skills, se indica visualmente
+        //    for (int i = nodesDocument.Count; i < mainSlots.Length; i++)
+        //    {
+        //        MenuSkill sk = new MenuSkill();
+        //        sk.skName = "none";
+        //        sk.stressLevel = 10;
+        //        activeSkills.Add(sk);
+        //        recommendedSkills.Add((MenuSkill)sk.Clone());
+        //    }
+        //}
+        //else
+        //{
+        //    //Aquí escribiremos en la zona de "Recommended" las habilidades que estén en el playerpref, es 
+        //    //decir, las que use el jugador normalmente
+
+        //    fillMainSlotsPrefs();
+        //}
+        //
+
+
         // Rellenar lista de skills activas
         XmlNodeList nodesDocument = readerXML.DocumentElement.SelectNodes("/Level/Settings/Recommended/Skill");
         //Escribimos en el documento que las habilidades recomendadas sean las habilidades del nivel (hasta que no se demuestre lo contrario)
@@ -122,7 +190,7 @@ public class PopupMenu : MonoBehaviour
             sk.stressLevel = int.Parse(nodesDocument[i].SelectSingleNode("Stress").InnerText);
 
             print("GUARDO " + sk.skName);
-            //
+
             XmlNode newNode = readerXML.CreateNode(XmlNodeType.Element, "Skill", null);
             XmlNode titleNode = readerXML.CreateNode(XmlNodeType.Element, "Name", null);
             titleNode.InnerText = sk.skName;
@@ -135,12 +203,11 @@ public class PopupMenu : MonoBehaviour
 
             readerXML.Save("Assets/Resources/levels/" + level + ".xml");
 
-            //
             activeSkills.Add(sk);
             recommendedSkills.Add((MenuSkill)sk.Clone());
         }
 
-        // Si se veta a un número determinado de skills, se indica visualmente
+        //Si se veta a un número determinado de skills, se indica visualmente
         for (int i = nodesDocument.Count; i < mainSlots.Length; i++)
         {
             MenuSkill sk = new MenuSkill();
@@ -149,7 +216,7 @@ public class PopupMenu : MonoBehaviour
             activeSkills.Add(sk);
             recommendedSkills.Add((MenuSkill)sk.Clone());
         }
-        
+
 
 
 
@@ -161,7 +228,7 @@ public class PopupMenu : MonoBehaviour
         int talkTasks = 0;
         int blackboardTasks = 0;
 
-        nodesDocument = readerXML.DocumentElement.SelectNodes("/Level/Tasks/Task");
+         nodesDocument = readerXML.DocumentElement.SelectNodes("/Level/Tasks/Task");
 
         foreach (XmlNode node in nodesDocument)//reading from the XML
         {
@@ -219,21 +286,40 @@ public class PopupMenu : MonoBehaviour
             else
             {
                 mainSlots[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/skills/button_" + activeSkills[i].skName);
-                print(activeSkills[i].skName);
+                //print(activeSkills[i].skName);
 
                 mainSlots[i].GetComponent<Image>().color = Color.white; // Reajustar el alfa
-                if (activeSkills[i].skName == "null") 
+                if (activeSkills[i].skName == "null")
                 {
                     mainSlots[i].GetComponent<Image>().color = new Color32(0, 0, 0, 128);
                 }
             }
-
-
-
-
-
         }
     }
+
+    //void fillMainSlotsPrefs() {
+
+    //    foreach(string sk in skillsPlayer)
+    //    {
+    //        if (activeSkills[i].skName == "none")
+    //        {
+    //            mainSlots[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/nope");
+
+    //            mainSlots[i].GetComponent<Image>().color = Color.white; // Reajustar el alfa
+    //        }
+    //        else
+    //        {
+    //            mainSlots[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/skills/button_" + activeSkills[i].skName);
+    //            //print(activeSkills[i].skName);
+
+    //            mainSlots[i].GetComponent<Image>().color = Color.white; // Reajustar el alfa
+    //            if (activeSkills[i].skName == "null")
+    //            {
+    //                mainSlots[i].GetComponent<Image>().color = new Color32(0, 0, 0, 128);
+    //            }
+    //        }
+    //    }
+    //}
 
     public void startLevel()
     {
@@ -282,6 +368,7 @@ public class PopupMenu : MonoBehaviour
 
     void fillSkillSlots()
     {
+        
         for (int i = 0; i < activeSkills.Count; i++)
         {
             if (activeSkills[i].skName == "none")
@@ -309,9 +396,21 @@ public class PopupMenu : MonoBehaviour
         transform.GetChild(1).gameObject.SetActive(false);
         XmlNode nodesDocument = readerXML.DocumentElement.SelectSingleNode("/Level/Skills");
         nodesDocument.RemoveAll();
+
+        //Inicializamos las playerskills
+        PlayerPrefs.SetString("PlayerSkills", "");
+        //
+
+
         foreach (MenuSkill skill in activeSkills)
         {
-            XmlNode newNode = readerXML.CreateNode(XmlNodeType.Element, "Skill", null);
+            //
+            PlayerPrefs.SetString("PlayerSkills", PlayerPrefs.GetString("PlayerSkills") + skill.skName + "/");
+            
+            //
+
+
+            XmlNode newNode = readerXML.CreateNode(XmlNodeType.Element, "Skill", null);          
             XmlNode titleNode = readerXML.CreateNode(XmlNodeType.Element, "Name", null);
             titleNode.InnerText = skill.skName;
             XmlNode stressNode = readerXML.CreateNode(XmlNodeType.Element, "Stress", null);
@@ -321,8 +420,13 @@ public class PopupMenu : MonoBehaviour
             newNode.AppendChild(stressNode);
             nodesDocument.AppendChild(newNode);
         }
+
+        //
+        print("HEEEY " +PlayerPrefs.GetString("PlayerSkills"));
+        //
         readerXML.Save("Assets/Resources/levels/" + level + ".xml");
         
+
         fillMainSlots();
         // Audio
         int rand = Random.Range(0, 2);
@@ -389,6 +493,7 @@ public class PopupMenu : MonoBehaviour
             skill.GetComponent<MenuSkill>().selected = true;
             activeSkills.Sort(SortByStress);
             fillSkillSlots();
+         
             // Audio
             int rand = Random.Range(0, 3);
             if (rand == 0)
@@ -415,11 +520,13 @@ public class PopupMenu : MonoBehaviour
         int i = 0;
         while (!encontrado && i < skillSlots.Length)
         {
+
             if (skillSlots[i].Equals(skill))
             {
                 activeSkills[i].skName = "null";
                 activeSkills[i].stressLevel = 9;
                 encontrado = true;
+                
             }
             else
             {
@@ -434,6 +541,7 @@ public class PopupMenu : MonoBehaviour
         {
             activeSkills[i].linkedSkill.GetComponent<Image>().color = Color.white;
             activeSkills[i].linkedSkill.GetComponent<MenuSkill>().selected = false;
+            
             activeSkills.Sort(SortByStress);
             fillSkillSlots();
             // Audio
